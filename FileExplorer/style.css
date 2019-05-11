@@ -1,0 +1,9 @@
+#fav_box{
+    margin-top: 1%; 
+    margin-left: 3%; 
+    float: left; 
+    min-height: 50%; 
+    width: 30%; 
+    border-radius: 3%;
+    background: whitesmoke;
+}

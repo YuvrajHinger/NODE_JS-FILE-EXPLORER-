@@ -1,0 +1,70 @@
+<html>
+    
+    <head>
+    
+        <title>FILE EXPLORER</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+
+    <body onload="AUTOCALL()">
+
+        <div id="fullpage" style="background: lightgray; border: solid black; min-height: 100%">                  
+                        
+            <div id="fav_box" style="margin-top: 1%; margin-left: 1%; float: left; min-height: 50%; width: 30%; border-radius: 3%; background: whitesmoke">
+
+                <h5 style="color: gray; font-size: 3vmin; text-decoration-line: underline; text-align: center">FAVORITES</h5>
+
+                <div id="HOME">
+
+                    <button id="home" onclick="AUTOCALL()" style="margin-top: 1%; margin-left: 3%;  color: white; background: darkblue; border: none; height: 5%; font-weight: bold; font-size: 3vmin; width: 90%">Home</h5>
+
+                </div>
+
+                <div id="DOC">
+
+                    <button onclick="getdoc()" style="cursor: pointer; margin-top: 1%; margin-left: 3%;  color: slateblue; background: none; border: none; height: 5%; font-weight: bold; font-size: 3vmin; width: 90%">Documents</h5>
+
+                </div>
+
+                <div id="PIC">
+
+                    <button id="pc" onclick="pictures()" style="cursor: pointer; margin-top: 1%; margin-left: 3%;  color: slateblue; background: none; border: none; height: 5%; font-weight: bold; font-size: 3vmin; width: 90%">Picture</h5>
+
+                </div>
+
+                <div id="MUSIC">
+
+                    <button style="cursor: pointer; margin-top: 1%; margin-left: 3%;  color: slateblue; background: none; border: none; height: 5%; font-weight: bold; font-size: 3vmin; width: 90%">Music</h5>
+
+                </div>
+
+                <div id="MOVIES">
+
+                    <button style="cursor: pointer; margin-top: 1%; margin-left: 3%;  color: slateblue; background: none; border: none; height: 5%; font-weight: bold; font-size: 3vmin; width: 90%">Movies</h5>
+
+                </div>
+
+                <h5 style="color: gray; font-size: 3vmin; text-decoration-line: underline; text-align: center">NETWORK</h5>
+
+                <div id="ABOUT">
+
+                    <button style="cursor: pointer; margin-top: 1%; margin-left: 3%;  color: slateblue; background: none; border: none; height: 5%; font-weight: bold; font-size: 3vmin; width: 90%">About</h5>
+
+                </div>
+
+            </div>            
+
+            <div align="right">                                
+
+                <div id="urlbox"  style="margin: 2%; width: 62%; margin-right: 2%; text-align: center; height: 10%; padding-left: 10px; border-radius: 1%; background: whitesmoke"></div>                                                            
+            
+                <div id="directory"  style="margin-top: 1%; width: 62%; margin-right: -29%; margin-bottom: 3%; overflow-y: scroll; height: 80%; padding-left: 10px; border-radius: 1%; background: whitesmoke"></div>                                                            
+            
+            </div>
+        
+        </div>
+
+    </body>
+</html>
